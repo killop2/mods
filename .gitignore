@@ -1,5 +1,6 @@
 **/.gradle/
 **/build/
 **/out/
-/_dl/jdk/
-/tools/jdk-*/
+/_dl/
+/tools/jdk*/
+playermodels/build/
