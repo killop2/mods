@@ -1,0 +1,36 @@
+material 0 MI_MommyBody_Default_1001 -> 2048px texture
+material 1 MI_MommyBody_Default_1002 -> 2048px texture
+material 2 M_MommyLongLegsTemp3 -> 1024px texture
+snap: 128 cells across, 30339 -> 9928 triangles
+flat shading: 26749 vertices
+atlas 512x512, 3 materials in 2x2 tiles, 26749 vertices
+forward yaw -179.5 deg
+idle bbox h=23.9348 -> scale 0.134 blocks/unit
+idle pose in blocks: x[-1.76 1.76] y[0.00 3.20] z[-3.04 3.04]
+welded vertices 26749 / 26749
+quads 8873 from 9928 triangles
+anim idle     <- A_Mommy_Idle                    4.25s   86 frames  rot 97 tr 70 sc 0  (1/3: h 3.15, x[-1.76 1.76] z[-2.92 3.04])
+anim walk     <- A_Mommy_WalkNoStride            1.25s   26 frames  rot 107 tr 73 sc 0  (1/3: h 3.54, x[-1.94 1.89] z[-3.11 2.95])
+anim run      <- A_Mommy_WalkNoStride            1.25s   26 frames  rot 107 tr 73 sc 0  (1/3: h 3.54, x[-1.94 1.89] z[-3.11 2.95])
+anim attack   <- A_Mommy_SwipeRight              0.88s   19 frames  rot 102 tr 70 sc 0  (1/3: h 3.11, x[-1.95 1.61] z[-2.67 3.04])
+anim jump     <- A_Mommy_FallLoop                1.17s   24 frames  rot 103 tr 74 sc 0  (1/3: h 2.54, x[-2.50 2.70] z[-3.03 2.94])
+anim sit      <- A_Mommy_Sit_Idle                4.04s   82 frames  rot 107 tr 73 sc 0  (1/3: h 3.75, x[-2.89 2.73] z[-1.97 1.73])
+anim dance    <- A_Mommy_Dance                  20.17s  404 frames  rot 108 tr 84 sc 0  (1/3: h 2.69, x[-2.39 2.60] z[-2.17 2.07])
+ragdoll parts: [body, l_arm_a0, l_tail_a1, l_arm_a2, r_arm_a0, r_tail_a1, r_arm_a2, head, r_leg_g0, r_tail_g1, r_leg_g2, l_leg_g0, l_tail_g1, l_leg_g2]
+ragdoll boxes shrunk 0 times to remove overlaps
+ragdoll body         parent -          x[-0.38 0.65] y[2.27 3.20] z[-1.40 0.78]
+ragdoll l_arm_a0     parent body       x[-1.33 -0.33] y[1.50 2.86] z[-1.22 -0.09]
+ragdoll l_tail_a1    parent l_arm_a0   x[-1.16 -0.65] y[0.60 1.46] z[-0.59 -0.27]
+ragdoll l_arm_a2     parent l_tail_a1  x[-1.76 -0.17] y[0.02 0.60] z[-1.95 -0.44]
+ragdoll r_arm_a0     parent body       x[0.14 1.37] y[1.44 2.63] z[-1.20 -0.52]
+ragdoll r_tail_a1    parent r_arm_a0   x[1.07 1.53] y[0.23 1.45] z[-0.80 -0.09]
+ragdoll r_arm_a2     parent r_tail_a1  x[0.19 1.76] y[0.00 0.50] z[-2.40 -0.90]
+ragdoll head         parent body       x[-0.43 1.24] y[1.37 2.77] z[-3.04 -1.24]
+ragdoll r_leg_g0     parent body       x[0.34 1.32] y[2.34 2.90] z[0.60 2.03]
+ragdoll r_tail_g1    parent r_leg_g0   x[0.77 1.37] y[1.73 2.85] z[2.07 2.35]
+ragdoll r_leg_g2     parent r_tail_g1  x[0.69 1.60] y[0.05 1.65] z[2.10 3.04]
+ragdoll l_leg_g0     parent body       x[-1.04 0.11] y[2.20 2.63] z[0.62 1.27]
+ragdoll l_tail_g1    parent l_leg_g0   x[-1.25 -0.84] y[1.04 2.15] z[1.18 2.05]
+ragdoll l_leg_g2     parent l_tail_g1  x[-0.92 -0.38] y[0.05 1.08] z[2.02 2.99]
+head bone: head_JNT
+written 1309276 bytes

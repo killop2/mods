@@ -1,0 +1,6 @@
+{
+  "key.categories.kickmod": "Kick Ragdoll",
+  "key.kickmod.kick": "Kick mob / NPC",
+  "kickmod.msg.no_target": "No mob or NPC in front of you",
+  "kickmod.msg.released": "Ragdolls released: %s"
+}

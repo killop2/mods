@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: Sable Ragdolls
+Specification-Vendor: Leonardoinc22
+Specification-Version: 0.7.5
+Implementation-Title: sable-player-ragdoll
+Implementation-Version: 0.7.5
+Implementation-Vendor: Leonardoinc22
+Built-On-Minecraft: 1.21.1
+

@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved. Do not redistribute."
+[[mods]]
+modId = "sable_player_ragdoll"
+version = "0.7.5"
+displayName = "Sable Ragdolls"
+logoFile = "sable_player_ragdoll_icon.png"
+authors = "Leonardoinc22"
+description = '''Ragdoll physics API for Sable. Provides the core ragdoll system and API for addon mods.'''
+[[mixins]]
+config = "sable_player_ragdoll.mixins.json"
+[[mixins]]
+config = "sable_player_ragdoll.neoforge.mixins.json"
+[[dependencies."sable_player_ragdoll"]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.219,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies."sable_player_ragdoll"]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.sable_player_ragdoll]]
+modId = "sable"
+type = "required"
+versionRange = "[1.1.0,)"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.sable_player_ragdoll]]
+modId = "jade"
+type = "optional"
+versionRange = "[15,)"
+ordering = "AFTER"
+side = "CLIENT"

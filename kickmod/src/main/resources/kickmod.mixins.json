@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.kickmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RagdollJointMixin"
+  ],
+  "client": [
+    "CameraMixin",
+    "EntityTurnMixin",
+    "PlayerModelMixin",
+    "PlayerRendererMixin",
+    "RagdollRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

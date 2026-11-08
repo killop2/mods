@@ -1,0 +1,35 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.140'
+}
+
+version = '1.0.0'
+group = 'com.example.waterslide'
+
+base {
+    archivesName = 'waterslide-1.21.1'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    // NeoForge build already in the local Gradle cache, so nothing new is downloaded
+    version = '21.1.219'
+
+    mods {
+        waterslide {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    // compile-only: used only when Sable is installed, nothing is bundled into the jar
+    compileOnly files('C:/Users/User/AppData/Roaming/.minecraft/mods/sable-neoforge-1.21.1-2.0.3.jar')
+    compileOnly files('libs/sable-companion-common-1.21.1-1.6.0.jar')
+    compileOnly files('C:/Users/User/AppData/Roaming/.minecraft/mods/sable_player_ragdoll-1.21.1-0.7.5.jar')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Project Playtime | Voxel Huggy
+* source:	https://sketchfab.com/3d-models/project-playtime-voxel-huggy-fff4776e9aa743ecb8d9fca78b13e358
+* author:	Xoffly (https://sketchfab.com/Xoffly)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Project Playtime | Voxel Huggy" (https://sketchfab.com/3d-models/project-playtime-voxel-huggy-fff4776e9aa743ecb8d9fca78b13e358) by Xoffly (https://sketchfab.com/Xoffly) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

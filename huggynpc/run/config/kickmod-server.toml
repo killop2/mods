@@ -1,0 +1,32 @@
+#Horizontal launch speed of the kicked mob, m/s: random between min and max
+#(each animation multiplies it by its own launch.forward from config/kickmod/animations.json)
+# Default: 5.2
+# Range: 0.0 ~ 60.0
+horizontalSpeedMin = 5.2
+# Default: 7.8
+# Range: 0.0 ~ 60.0
+horizontalSpeedMax = 7.8
+#Upward launch speed, m/s (times the animation's launch.up). Flight height grows with its square.
+# Default: 5.5
+# Range: 0.0 ~ 40.0
+verticalSpeed = 5.5
+#Backward tumble of the ragdoll, rad/s
+# Default: 2.5
+# Range: 0.0 ~ 30.0
+spin = 2.5
+#Max distance between player and target when the hit lands, blocks
+# Default: 5.0
+# Range: 1.0 ~ 16.0
+maxReach = 5.0
+#Spring in the joints of kicked ragdolls that pulls limbs back to their starting pose.
+#Sable: Ragdolls uses 20 (stiff mannequin). Lower = limper body. 0 = completely loose.
+# Default: 1.0
+# Range: 0.0 ~ 100.0
+jointStiffness = 1.0
+#Joint damping of kicked ragdolls (Sable: Ragdolls uses 20). Keeps limbs from flailing; lower = floppier.
+# Default: 2.0
+# Range: 0.0 ~ 100.0
+jointDamping = 2.0
+#Kicked mobs take no damage while they lie as a ragdoll (otherwise hard landings can kill them,
+#the ragdoll disappears and CustomNPCs respawns the NPC at its home).
+protectRagdolls = true

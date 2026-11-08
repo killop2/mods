@@ -1,0 +1,8 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": { "parent": "wheelofwonder:item/shockwave_3d" },
+  "perspectives": {
+    "gui": { "parent": "minecraft:item/generated", "textures": { "layer0": "wheelofwonder:item/shockwave" } },
+    "fixed": { "parent": "minecraft:item/generated", "textures": { "layer0": "wheelofwonder:item/shockwave" } }
+  }
+}

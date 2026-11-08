@@ -1,0 +1,19 @@
+#Side camera that follows your wheel (Shift skips it)
+cinematicCamera = true
+#Distance of the side camera from the wheel (blocks)
+# Default: 8.5
+# Range: 3.0 ~ 30.0
+cameraDistance = 8.5
+#Close-up distance once NPCs stick to the wheel (blocks)
+# Default: 4.5
+# Range: 2.0 ~ 30.0
+closeUpDistance = 4.5
+#Immersive mode: no HUD (hotbar, health, food, xp, armor, effects, item names) - items still work,
+#the inventory screen still shows everything. Toggle in game with the 'Toggle HUD' key (default H).
+hideHud = true
+#In immersive mode also hide the crosshair
+hideCrosshair = true
+#Hide the 'New recipes unlocked' and tutorial pop-ups in the corner
+hideRecipeToasts = true
+#Show both arms in first person when both hands are empty
+bothArmsWhenEmpty = true

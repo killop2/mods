@@ -1,0 +1,86 @@
+> Task :createMinecraftArtifacts
+Loaded 145 artifacts from D:\mods\MDK-1.21.1-ModDevGradle\build\tmp\createMinecraftArtifacts\nfrt_artifact_manifest.properties
+*** Started working on downloadJson
+  DL    https://launchermeta.mojang.com/mc/game/version_manifest_v2.json
+  DL    https://piston-meta.mojang.com/v1/packages/018296bcb207bea6fd25b05f08eee3942dcec406/1.21.1.json
+ DONE  Completed downloadJson in 6.23s
+*** Started working on downloadServer
+*** Started working on downloadClientMappings
+*** Started working on downloadClient
+  DL    https://piston-data.mojang.com/v1/objects/2244b6f072256667bcd9a73df124d6c58de77992/client.txt
+  DL    https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar
+  DL    https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar
+ DONE  Completed downloadClientMappings in 127.07s
+*** Started working on mergeMappings
+ RUN   Running external tool net.neoforged.installertools:installertools:2.1.2:fatjar
+ DONE  Completed mergeMappings in 1.48s
+ DONE  Completed downloadClient in 211.60s
+*** Started working on stripClient
+ DONE  Completed stripClient in 1.65s
+ DONE  Completed downloadServer in 236.28s
+*** Started working on extractServer
+ RUN   Running external tool net.neoforged.installertools:installertools:2.1.2:fatjar
+ DONE  Completed extractServer in 0.30s
+*** Started working on stripServer
+ DONE  Completed stripServer in 1.07s
+*** Started working on merge
+ RUN   Running external tool net.neoforged:mergetool:2.0.3:fatjar
+ DONE  Completed merge in 2.30s
+*** Started working on rename
+ RUN   Running external tool net.neoforged:AutoRenamingTool:2.0.3:all
+ DONE  Completed rename in 3.20s
+*** Started working on decompile
+ RUN   Running external tool org.vineflower:vineflower:1.10.1
+ DONE  Completed decompile in 21.33s
+*** Started working on inject
+ DONE  Completed inject in 1.69s
+*** Started working on patch
+ RUN   Running external tool io.codechicken:DiffPatch:2.0.0.36:all
+ DONE  Completed patch in 2.57s
+*** Started working on applyNeoforgePatches
+ RUN   Running external tool io.codechicken:DiffPatch:2.0.0.36:all
+ DONE  Completed applyNeoforgePatches in 1.76s
+*** Started working on transformSources
+ RUN   Running external tool net.neoforged.jst:jst-cli-bundle:2.0.6
+ DONE  Completed transformSources in 4.54s
+*** Started working on recompile
+ 110 items on the compile classpath
+ 0 items on the sourcepath
+*** Started working on sourcesWithNeoForge
+ Compiling 5364 source files
+ DONE  Completed sourcesWithNeoForge in 2.89s
+Copied 0 resource files
+ DONE  Completed recompile in 20.68s
+*** Started working on compiledWithNeoForge
+ DONE  Completed compiledWithNeoForge in 4.34s
+*** Started working on sourcesAndCompiledWithNeoForge
+ DONE  Completed sourcesAndCompiledWithNeoForge in 2.09s
+Total runtime: 309.12s
+
+
+> Task :compileJava
+D:\mods\MDK-1.21.1-ModDevGradle\src\main\java\com\example\flatoutcar\client\ClientSetup.java:13: warning: [removal] bus() in EventBusSubscriber has been deprecated and marked for removal
+@EventBusSubscriber(modid = FlatoutCarMod.MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+                                                  ^
+D:\mods\MDK-1.21.1-ModDevGradle\src\main\java\com\example\flatoutcar\client\ClientSetup.java:13: warning: [removal] Bus in EventBusSubscriber has been deprecated and marked for removal
+@EventBusSubscriber(modid = FlatoutCarMod.MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+                                                                          ^
+2 warnings
+
+> Task :processResources
+> Task :classes
+> Task :jarJar NO-SOURCE
+> Task :jar
+> Task :assemble
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :check UP-TO-DATE
+> Task :build
+
+[Incubating] Problems report is available at: file:///D:/mods/MDK-1.21.1-ModDevGradle/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 5m 50s
+4 actionable tasks: 4 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html

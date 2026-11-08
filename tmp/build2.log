@@ -1,0 +1,28 @@
+> Task :createMinecraftArtifacts
+> Task :createMinecraftArtifacts FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':createMinecraftArtifacts'.
+> Error while evaluating property 'artifactManifestEntries' of task ':createMinecraftArtifacts'.
+   > Could not resolve all artifacts for configuration ':neoFormRuntimeDependenciesCompileClasspath'.
+      > Could not download joml-1.10.5.jar (org.joml:joml:1.10.5)
+         > Could not get resource 'https://libraries.minecraft.net/org/joml/joml/1.10.5/joml-1.10.5.jar'.
+            > Could not GET 'https://libraries.minecraft.net/org/joml/joml/1.10.5/joml-1.10.5.jar'.
+               > The server may not support the client's requested TLS protocol versions: (TLSv1.2, TLSv1.3). You may need to configure the client to allow other protocols to be used. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/build_environment.html#sec:gradle_system_properties in the Gradle documentation.
+                  > Remote host terminated the handshake
+      > Could not download lwjgl-openal-3.3.3.jar (org.lwjgl:lwjgl-openal:3.3.3)
+         > Could not get resource 'https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3.jar'.
+            > Could not GET 'https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3.jar'.
+               > The server may not support the client's requested TLS protocol versions: (TLSv1.2, TLSv1.3). You may need to configure the client to allow other protocols to be used. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/build_environment.html#sec:gradle_system_properties in the Gradle documentation.
+                  > Remote host terminated the handshake
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 28s
+1 actionable task: 1 executed

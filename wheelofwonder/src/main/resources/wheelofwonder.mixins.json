@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.wheelofwonder.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SableFragileMixin"
+  ],
+  "client": [
+    "WheelCameraMixin",
+    "RagdollRenderMixin",
+    "ItemInHandRendererAccessor",
+    "PlayerHandMixin",
+    "ToastMixin",
+    "HumanoidPoseMixin",
+    "ParticleGuardMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

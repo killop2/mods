@@ -1,0 +1,8 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": { "parent": "wheelofwonder:item/telekinesis_glove" },
+  "perspectives": {
+    "gui": { "parent": "minecraft:item/generated", "textures": { "layer0": "wheelofwonder:item/telekinesis_orb" } },
+    "fixed": { "parent": "minecraft:item/generated", "textures": { "layer0": "wheelofwonder:item/telekinesis_orb" } }
+  }
+}

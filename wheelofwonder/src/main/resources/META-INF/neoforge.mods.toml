@@ -1,0 +1,40 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "wheelofwonder"
+version = "1.0.0"
+displayName = "Wheel of Wonder & Walrus PUNCH!"
+description = '''Cinematic ragdoll weapons. Wheel of Wonder: a glowing carnival wheel that rolls to a spot, levitates, sticks every NPC around to its face and explodes. Walrus PUNCH!: boxing gloves whose signature uppercut launches an NPC into the sky; you leap after it and smash it back to the ground.'''
+
+[[mixins]]
+config = "wheelofwonder.mixins.json"
+
+[[dependencies.wheelofwonder]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.wheelofwonder]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.wheelofwonder]]
+modId = "sable_player_ragdoll"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.wheelofwonder]]
+modId = "kickmod"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

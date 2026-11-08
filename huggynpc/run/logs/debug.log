@@ -1,0 +1,613 @@
+[03нояб.2026 16:08:59.130] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.248, --assetIndex, 17, --assetsDir, D:\\mods\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.248, --fml.neoFormVersion, 20240808.144430, --quickPlaySingleplayer, New World]
+[03нояб.2026 16:08:59.135] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.13+9-LTS
+[03нояб.2026 16:08:59.137] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.13 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[03нояб.2026 16:08:59.512] [main/INFO] [Sodium-GraphicsAdapterProbe/]: Searching for graphics cards...
+[03нояб.2026 16:08:59.760] [main/INFO] [Sodium-GraphicsAdapterProbe/]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 5060 Laptop GPU', adapterType=0x00002313, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nvhm.inf_amd64_f0c4c3905d48bee7\nvoglv64.dll', openglIcdVersion=32.0.15.9282}
+[03нояб.2026 16:08:59.761] [main/INFO] [Sodium-GraphicsAdapterProbe/]: Found graphics adapter: AdapterInfo{vendor=INTEL, description='Intel(R) Graphics', adapterType=0x0000232B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_d2c6999664e89333\igxelpicd64.dll', openglIcdVersion=32.0.101.7088}
+[03нояб.2026 16:08:59.774] [main/WARN] [Sodium-Workarounds/]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+[03нояб.2026 16:08:59.775] [main/WARN] [Sodium-Workarounds/]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[03нояб.2026 16:08:59.776] [main/INFO] [Sodium-NvidiaWorkarounds/]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[03нояб.2026 16:08:59.781] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[03нояб.2026 16:08:59.880] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[03нояб.2026 16:09:02.674] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[03нояб.2026 16:09:02.972] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 592.82, NVIDIA Corporation
+[03нояб.2026 16:09:04.820] [main/INFO] [gg.essential.loader.stage1.EssentialLoaderBase/]: Starting Essential Loader (stage2) version 1.8.1 (6018011861d60d33aff5518db8a50f56) [stable]
+[03нояб.2026 16:09:04.858] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/D:/mods/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[03нояб.2026 16:09:05.320] [main/WARN] [gg.essential.loader.stage2.EssentialLoaderBase/]: Found newer Essential version 1.5.2 [stable], skipping at user request
+[03нояб.2026 16:09:05.969] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_api_base. Using Mod File: 
+[03нояб.2026 16:09:05.969] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_renderer_api_v1. Using Mod File: 
+[03нояб.2026 16:09:05.969] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_rendering_data_attachment_v1. Using Mod File: 
+[03нояб.2026 16:09:05.970] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_block_view_api_v2. Using Mod File: 
+[03нояб.2026 16:09:05.970] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[03нояб.2026 16:09:05.975] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Corpse 1.21.1-1.1.13 (corpse)
+		Custom NPCs 1.21.1.20251230 (customnpcs)
+		Ferrite Core 7.0.3 (ferritecore)
+		Flatout Car 1.0.0 (flatoutcar)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Renderer API (v1) 3.4.1+9125b6dc19 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
+		Huggy NPC 1.0.0 (huggynpc)
+		Iris 1.8.14-beta.1+mc1.21.1 (iris)
+		Kick Ragdoll 1.0.0 (kickmod)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.248 (neoforge)
+		Physics Mod 3.0.34 (physicsmod)
+		Ragdoll Reactions 0.7.0 (ragdoll_reactions)
+		Sable 2.0.3 (sable)
+		Sable Companion 1.6.0 (sablecompanion)
+		Sable Ragdolls 0.7.5 (sable_player_ragdoll)
+		Sable Ragdolls Patch 1.8.1 (sable_player_ragdoll_patch)
+		Sodium 0.8.13+mc1.21.1 (sodium)
+		SPR Addition 0.1.0 (spr_addition)
+		Veil 4.1.4 (veil)
+		Water Slide 1.0.0 (waterslide)
+		Wheel of Wonder & Walrus PUNCH! 1.0.0 (wheelofwonder)
+[03нояб.2026 16:09:07.160] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03нояб.2026 16:09:07.163] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[03нояб.2026 16:09:07.236] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.248, --gameDir, ., --assetsDir, D:\mods\.gradle\caches\neoformruntime\assets, --assetIndex, 17, --quickPlaySingleplayer, New World]
+[03нояб.2026 16:09:07.338] [main/WARN] [mixin/]: Reference map 'physicsmod.refmap.json' for physicsmod.mixins.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.381] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Sodium renderer mixins
+[03нояб.2026 16:09:07.382] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Sodium renderer mixins
+[03нояб.2026 16:09:07.385] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.386] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.387] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.387] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.388] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.391] [main/WARN] [mixin/]: Reference map 'sable_player_ragdoll_patch.refmap.json' for sable_player_ragdoll_patch.mixins.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.392] [main/WARN] [mixin/]: Reference map 'sable_player_ragdoll_patch.refmap.json' for sable_player_ragdoll_patch.corpse.mixins.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.392] [main/WARN] [mixin/]: Reference map 'sable_player_ragdoll_patch.refmap.json' for sable_player_ragdoll_patch.ruok.mixins.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.393] [main/WARN] [mixin/]: Reference map 'sable_player_ragdoll_patch.refmap.json' for sable_player_ragdoll_patch.leawind.mixins.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.446] [main/WARN] [mixin/]: Reference map 'sable_player_ragdoll.refmap.json' for sable_player_ragdoll.mixins.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.446] [main/WARN] [mixin/]: Reference map 'sable_player_ragdoll.refmap.json' for sable_player_ragdoll.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.447] [main/WARN] [mixin/]: Reference map 'spr_addition.refmap.json' for spr_addition.mixins.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.490] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.491] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.493] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.494] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.495] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.496] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.497] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.499] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.500] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.datacomponents.mixin.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.500] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.525] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 45 options available, 1 override(s) found
+[03нояб.2026 16:09:07.528] [main/WARN] [mixin/]: Reference map 'customnpcs.refmap.json' for customnpcs.mixins.json could not be read. If this is a development environment you can ignore this message
+[03нояб.2026 16:09:07.632] [main/INFO] [Essential Logger - Plugin/]: Starting Essential v1.4.1.1 (#31e1806134) [stable]
+[03нояб.2026 16:09:08.051] [main/ERROR] [mixin/]: The specified mixin 'net.diebuddies.mixins.create.MixinAbstractContraptionEntity' was not found
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: The specified mixin 'net.diebuddies.mixins.create.MixinAbstractContraptionEntity' was not found
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:864) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:933) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:862) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:540) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-11.0.5.jar:11.0.5+main.901c6ea8]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.5.jar:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.5.jar:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.5.jar:?]
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?]
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?]
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) [securejarhandler-3.0.8.jar:?]
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) [securejarhandler-3.0.8.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:638) [?:?]
+	at java.base/java.lang.Class.forName(Class.java:627) [?:?]
+	at java.base/java.lang.Class.forName(Class.java:602) [?:?]
+	at MC-BOOTSTRAP/fml_earlydisplay@4.0.43/net.neoforged.fml.earlydisplay.DisplayWindow.updateModuleReads(DisplayWindow.java:605) [earlydisplay-4.0.43.jar%23145!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:94) [loader-4.0.43.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.FMLLoader.beforeStart(FMLLoader.java:166) [loader-4.0.43.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:115) [loader-4.0.43.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23128!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: The specified mixin 'net.diebuddies.mixins.create.MixinAbstractContraptionEntity' was not found
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.loadMixinClass(MixinInfo.java:1314) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:857) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7]
+	... 36 more
+[03нояб.2026 16:09:08.325] [main/WARN] [mixin/]: Error loading class: net/optifine/shaders/Shaders (java.lang.ClassNotFoundException: net.optifine.shaders.Shaders)
+[03нояб.2026 16:09:08.327] [main/WARN] [mixin/]: Error loading class: net/optifine/shaders/ShadersCompatibility (java.lang.ClassNotFoundException: net.optifine.shaders.ShadersCompatibility)
+[03нояб.2026 16:09:08.327] [main/WARN] [mixin/]: Error loading class: net/optifine/shaders/Programs (java.lang.ClassNotFoundException: net.optifine.shaders.Programs)
+[03нояб.2026 16:09:08.328] [main/WARN] [mixin/]: Error loading class: org/valkyrienskies/core/impl/game/ships/ShipObjectClient (java.lang.ClassNotFoundException: org.valkyrienskies.core.impl.game.ships.ShipObjectClient)
+[03нояб.2026 16:09:08.353] [main/WARN] [mixin/]: Error loading class: net/optifine/util/BlockUtils (java.lang.ClassNotFoundException: net.optifine.util.BlockUtils)
+[03нояб.2026 16:09:08.355] [main/WARN] [mixin/]: Error loading class: ca/spottedleaf/starlight/common/light/StarLightEngine (java.lang.ClassNotFoundException: ca.spottedleaf.starlight.common.light.StarLightEngine)
+[03нояб.2026 16:09:08.356] [main/WARN] [mixin/]: Error loading class: link/infra/indium/renderer/render/TerrainRenderContext (java.lang.ClassNotFoundException: link.infra.indium.renderer.render.TerrainRenderContext)
+[03нояб.2026 16:09:08.418] [main/WARN] [mixin/]: Error loading class: traben/entity_model_features/models/parts/EMFModelPart (java.lang.ClassNotFoundException: traben.entity_model_features.models.parts.EMFModelPart)
+[03нояб.2026 16:09:08.419] [main/WARN] [mixin/]: Error loading class: traben/entity_model_features/models/parts/EMFModelPartVanilla (java.lang.ClassNotFoundException: traben.entity_model_features.models.parts.EMFModelPartVanilla)
+[03нояб.2026 16:09:08.420] [main/WARN] [mixin/]: Error loading class: me/cortex/voxy/client/core/model/bakery/SoftwareModelTextureBakery (java.lang.ClassNotFoundException: me.cortex.voxy.client.core.model.bakery.SoftwareModelTextureBakery)
+[03нояб.2026 16:09:08.421] [main/WARN] [mixin/]: Error loading class: ca/fxco/moreculling/config/ConfigUpdater (java.lang.ClassNotFoundException: ca.fxco.moreculling.config.ConfigUpdater)
+[03нояб.2026 16:09:08.422] [main/WARN] [mixin/]: Error loading class: org/vivecraft/client_vr/gameplay/VRPlayer (java.lang.ClassNotFoundException: org.vivecraft.client_vr.gameplay.VRPlayer)
+[03нояб.2026 16:09:08.426] [main/WARN] [mixin/]: Error loading class: betterblockentities/client/gui/config/wrapper/GenericConfigWrapper (java.lang.ClassNotFoundException: betterblockentities.client.gui.config.wrapper.GenericConfigWrapper)
+[03нояб.2026 16:09:08.808] [main/WARN] [mixin/]: Error loading class: com/portingdeadmods/cable_facades/events/GameClientEvents$2 (java.lang.ClassNotFoundException: com.portingdeadmods.cable_facades.events.GameClientEvents$2)
+[03нояб.2026 16:09:08.809] [main/WARN] [mixin/]: Error loading class: com/direwolf20/justdirethings/client/renderers/OurRenderTypes (java.lang.ClassNotFoundException: com.direwolf20.justdirethings.client.renderers.OurRenderTypes)
+[03нояб.2026 16:09:08.809] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/entity/RenderFlame (java.lang.ClassNotFoundException: mekanism.client.render.entity.RenderFlame)
+[03нояб.2026 16:09:08.810] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/armor/MekaSuitArmor (java.lang.ClassNotFoundException: mekanism.client.render.armor.MekaSuitArmor)
+[03нояб.2026 16:09:08.810] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/lib/effect/BillboardingEffectRenderer (java.lang.ClassNotFoundException: mekanism.client.render.lib.effect.BillboardingEffectRenderer)
+[03нояб.2026 16:09:08.812] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/client/utils/IEGLShaders (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.client.utils.IEGLShaders)
+[03нояб.2026 16:09:08.824] [main/WARN] [mixin/]: Error loading class: dev/leo/ragdollcorpse/corpse/CorpseInteractHandler (java.lang.ClassNotFoundException: dev.leo.ragdollcorpse.corpse.CorpseInteractHandler)
+[03нояб.2026 16:09:08.826] [main/WARN] [mixin/]: @Mixin target dev.leo.ragdollcorpse.corpse.CorpseInteractHandler was not found sable_player_ragdoll_patch.corpse.mixins.json:CorpseInteractHandlerMixin from mod sable_player_ragdoll_patch
+[03нояб.2026 16:09:08.827] [main/WARN] [mixin/]: Error loading class: dev/leo/ragdollcorpse/corpse/CorpseDeathHandler (java.lang.ClassNotFoundException: dev.leo.ragdollcorpse.corpse.CorpseDeathHandler)
+[03нояб.2026 16:09:08.827] [main/WARN] [mixin/]: @Mixin target dev.leo.ragdollcorpse.corpse.CorpseDeathHandler was not found sable_player_ragdoll_patch.corpse.mixins.json:CorpseDeathHandlerMixin from mod sable_player_ragdoll_patch
+[03нояб.2026 16:09:08.828] [main/WARN] [mixin/]: Error loading class: team/teampotato/ruok/util/entity/block/BlockEntityUtil (java.lang.ClassNotFoundException: team.teampotato.ruok.util.entity.block.BlockEntityUtil)
+[03нояб.2026 16:09:08.829] [main/WARN] [mixin/]: Error loading class: com/github/leawind/thirdperson/core/CameraAgent (java.lang.ClassNotFoundException: com.github.leawind.thirdperson.core.CameraAgent)
+[03нояб.2026 16:09:08.829] [main/WARN] [mixin/]: Error loading class: com/github/leawind/thirdperson/ThirdPerson (java.lang.ClassNotFoundException: com.github.leawind.thirdperson.ThirdPerson)
+[03нояб.2026 16:09:08.830] [main/WARN] [mixin/]: Error loading class: com/github/leawind/thirdperson/ThirdPersonStatus (java.lang.ClassNotFoundException: com.github.leawind.thirdperson.ThirdPersonStatus)
+[03нояб.2026 16:09:08.915] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[03нояб.2026 16:09:08.916] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[03нояб.2026 16:09:08.916] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[03нояб.2026 16:09:09.273] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[03нояб.2026 16:09:11.567] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 363 milliseconds
+[03нояб.2026 16:09:12.282] [pool-19-thread-1/WARN] [mixin/]: Discarding @Unique public method getPersistentData in customnpcs.mixins.json:EntityPersistentData from mod (unknown) because it already exists in net.minecraft.world.entity.Entity
+[03нояб.2026 16:09:29.877] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03нояб.2026 16:09:29.879] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03нояб.2026 16:09:29.882] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03нояб.2026 16:09:29.884] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03нояб.2026 16:09:29.885] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03нояб.2026 16:09:30.147] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/mods/huggynpc/build/moddev/artifacts/neoforge-21.1.248.jar%23216!/assets/.mcassetsroot' uses unexpected schema
+[03нояб.2026 16:09:30.147] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/mods/huggynpc/build/moddev/artifacts/neoforge-21.1.248.jar%23216!/data/.mcassetsroot' uses unexpected schema
+[03нояб.2026 16:09:30.197] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03нояб.2026 16:09:30.211] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[03нояб.2026 16:09:30.389] [Render thread/INFO] [Essential Logger/]: OptiFine not detected.
+[03нояб.2026 16:09:30.794] [Render thread/INFO] [Essential - DI/]: Starting DI!
+[03нояб.2026 16:09:30.858] [Render thread/INFO] [Essential - Connection/]: Authenticating to Mojang as Dev (380df991-f603-344c-a090-369bad2a924a)
+[03нояб.2026 16:09:31.990] [DefaultDispatcher-worker-3/INFO] [Essential - Connection/]: Session token appears to be invalid, trying to automatically refresh it
+[03нояб.2026 16:09:32.044] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[03нояб.2026 16:09:32.174] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: NVIDIA Corporation
+[03нояб.2026 16:09:32.174] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2
+[03нояб.2026 16:09:32.174] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.6.0 NVIDIA 592.82
+[03нояб.2026 16:09:32.176] [Render thread/INFO] [Sodium-NvidiaWorkarounds/]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[03нояб.2026 16:09:32.176] [Render thread/INFO] [Sodium-NvidiaWorkarounds/]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threaded command submission
+[03нояб.2026 16:09:32.391] [Render thread/INFO] [Iris/]: Debug functionality is disabled.
+[03нояб.2026 16:09:32.401] [Render thread/INFO] [Iris/]: OpenGL 4.5 detected, enabling DSA.
+[03нояб.2026 16:09:32.676] [ForkJoinPool.commonPool-worker-1/WARN] [Iris/]: [Iris Update Check] This version doesn't have an update index, skipping.
+[03нояб.2026 16:09:32.693] [Render thread/WARN] [Iris/]: Tried to get boolean value for unknown option: VOXY, defaulting to true!
+[03нояб.2026 16:09:32.698] [Render thread/WARN] [Iris/]: Unable to resolve shader pack option menu element "IRIS_END_FIX" defined in shaders.properties
+[03нояб.2026 16:09:32.699] [Render thread/INFO] [Iris/]: Profile: Custom (+12 options changed by user)
+[03нояб.2026 16:09:33.200] [Render thread/INFO] [Iris/]: Using shaderpack: Sildur's Vibrant Shaders v2.02 Extreme
+[03нояб.2026 16:09:33.445] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[03нояб.2026 16:09:33.445] [modloading-worker-0/INFO] [sable_player_ragdoll_patch/]: Sable Ragdolls Patch loaded
+[03нояб.2026 16:09:33.561] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
+[03нояб.2026 16:09:33.776] [modloading-worker-0/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method setSectionDirty in sodium-common.mixins.json:core.render.world.LevelRendererMixin from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[03нояб.2026 16:09:33.932] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[03нояб.2026 16:09:35.471] [Render thread/ERROR] [Essential Logger/]: Failed to refresh session: Unknown account
+gg.essential.gui.menu.AccountManager$UnknownAccountException: Unknown account
+	at TRANSFORMER/essential@1.4.1.1/gg.essential.gui.menu.AccountManager$Companion.refreshSession(AccountManager.kt:184) ~[Essential%20(neoforge_1.21.1).jar%23291!/:?]
+	at TRANSFORMER/essential@1.4.1.1/gg.essential.gui.menu.AccountManager$Companion.refreshCurrentSession(AccountManager.kt:141) ~[Essential%20(neoforge_1.21.1).jar%23291!/:?]
+	at TRANSFORMER/essential@1.4.1.1/gg.essential.network.connectionmanager.ConnectionManagerKt$connectLoop$error$2.invokeSuspend(ConnectionManagerKt.kt:184) ~[Essential%20(neoforge_1.21.1).jar%23291!/:?]
+	at LAYER PLUGIN/kotlin.stdlib/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34) ~[kotlin-stdlib-2.3.0.jar%23214!/:2.3.0-release-356]
+	at LAYER PLUGIN/kotlinx.coroutines.core/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100) ~[kotlinx-coroutines-core-jvm-1.10.2.jar%23211!/:?]
+	at TRANSFORMER/essential@1.4.1.1/gg.essential.util.TargetThreadExecutor.run(TargetThreadExecutor.kt:38) ~[Essential%20(neoforge_1.21.1).jar%23291!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.handler$cdd000$essential$runEssentialExecutorDuringInit(Minecraft.java:12059) ~[neoforge-21.1.248.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:494) ~[neoforge-21.1.248.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[neoforge-21.1.248.jar%23216!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.43.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.43.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.43.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.43.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23128!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[03нояб.2026 16:09:35.473] [Render thread/WARN] [Essential - Connection/]: User's Minecraft access token has expired, waiting for new user-supplied token.
+[03нояб.2026 16:09:35.673] [Render thread/INFO] [Veil/]: GL Debug supported
+[03нояб.2026 16:09:36.022] [Render thread/INFO] [Iris/]: Hardware information:
+[03нояб.2026 16:09:36.023] [Render thread/INFO] [Iris/]: CPU: 16x Intel(R) Core(TM) 7 240H
+[03нояб.2026 16:09:36.023] [Render thread/INFO] [Iris/]: GPU: NVIDIA GeForce RTX 5060 Laptop GPU/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 592.82)
+[03нояб.2026 16:09:36.023] [Render thread/INFO] [Iris/]: OS: Windows 11 (10.0)
+[03нояб.2026 16:09:36.248] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[03нояб.2026 16:09:36.952] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/sodium, mod/physicsmod, mod/fabric_api_base, mod/fabric_renderer_api_v1, mod/sable, mod/waterslide, mod/sablecompanion, mod/neoforge, mod/fabric_block_view_api_v2, mod/iris, mod/sable_player_ragdoll_patch, mod/veil, mod/customnpcs, mod/flatoutcar, mod/sable_player_ragdoll, mod/spr_addition, mod/ragdoll_reactions, mod/ferritecore, mod/huggynpc, mod/kickmod, mod/wheelofwonder, mod/fabric_rendering_data_attachment_v1, mod/corpse, mod/essential, cnpcs
+[03нояб.2026 16:09:37.147] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/neoforge/corpse
+[03нояб.2026 16:09:37.159] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[03нояб.2026 16:09:37.464] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[03нояб.2026 16:09:38.435] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'sable_player_ragdoll:blockstates/ragdoll_seat.json' missing model for variant: 'sable_player_ragdoll:ragdoll_seat#'
+[03нояб.2026 16:09:38.921] [Render thread/INFO] [sable_player_ragdoll/]: [sable_player_ragdoll] post-physics ragdoll hook registered
+[03нояб.2026 16:09:38.932] [Render thread/INFO] [ragdoll_reactions/]: [ragdoll_reactions] post-physics accel/decel trigger registered
+[03нояб.2026 16:09:39.311] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model customnpcs:npcmailbox2#inventory:
+    minecraft:textures/atlas/blocks.png:customnpcs:blocks/mailbox2
+[03нояб.2026 16:09:39.312] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model customnpcs:npcmailbox#inventory:
+    minecraft:textures/atlas/blocks.png:customnpcs:blocks/mailbox1
+[03нояб.2026 16:09:39.312] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model customnpcs:npccarpentybench#inventory:
+    minecraft:textures/atlas/blocks.png:customnpcs:block/carpentrybench
+[03нояб.2026 16:09:39.313] [Worker-Main-14/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model customnpcs:npcmailbox3#inventory:
+    minecraft:textures/atlas/blocks.png:customnpcs:blocks/mailbox3
+[03нояб.2026 16:09:39.430] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.21.1-1.1.13 Target: 1.21.1-1.1.22
+[03нояб.2026 16:09:39.537] [Render thread/INFO] [Veil/]: Loaded 0 shader modifications
+[03нояб.2026 16:09:39.755] [Render thread/INFO] [Veil/]: Loaded 17 shaders from: pinwheel/shaders/program
+[03нояб.2026 16:09:40.154] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[03нояб.2026 16:09:40.154] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[03нояб.2026 16:09:41.687] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speaker (Realtek(R) Audio)
+[03нояб.2026 16:09:41.687] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[03нояб.2026 16:09:41.791] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[03нояб.2026 16:09:41.817] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[03нояб.2026 16:09:41.817] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[03нояб.2026 16:09:41.819] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[03нояб.2026 16:09:41.820] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[03нояб.2026 16:09:41.826] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[03нояб.2026 16:09:41.826] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[03нояб.2026 16:09:41.826] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[03нояб.2026 16:09:41.827] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[03нояб.2026 16:09:41.879] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.879] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.879] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.879] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.879] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.879] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.880] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.880] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.880] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.881] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.881] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.881] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.881] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.881] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.882] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.882] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.882] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.882] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.882] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.882] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.882] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.882] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.882] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.882] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.883] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.883] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.883] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.883] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.883] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.883] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.883] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.884] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.884] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.884] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.884] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.884] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.890] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.890] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.890] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.890] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.892] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.893] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.893] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.893] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.893] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.893] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.893] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.893] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.893] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.893] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.893] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.893] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.893] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.894] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.894] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.894] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.894] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.894] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.894] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.894] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:41.957] [Render thread/INFO] [com.example.huggynpc.client.SkinMesh/]: [huggynpc] loaded huggynpc:models/entity/doey.skin: 213 joints, 6833 vertices, 7434 quads, animations [idle, attack, run, dance, walk]
+[03нояб.2026 16:09:41.962] [Render thread/INFO] [com.example.huggynpc.client.RagdollParts/]: [huggynpc] ragdoll parts ready: body, r_leg_g0, r_tail_g1, r_leg_g2, l_leg_g0, l_tail_g1, l_leg_g2, l_arm_a0, l_tail_a1, l_arm_a2, r_arm_a0, r_tail_a1, r_arm_a2, head
+[03нояб.2026 16:09:42.056] [Render thread/INFO] [com.example.huggynpc.client.SkinMesh/]: [huggynpc] loaded huggynpc:models/entity/mommy.skin: 162 joints, 18129 vertices, 18844 quads, animations [idle, attack, run, dance, walk, jump, sit]
+[03нояб.2026 16:09:42.058] [Render thread/INFO] [com.example.huggynpc.client.RagdollParts/]: [huggynpc] ragdoll parts ready: body, l_arm_a0, l_tail_a1, l_arm_a2, r_arm_a0, r_tail_a1, r_arm_a2, head, r_leg_g0, r_tail_g1, r_leg_g2, l_leg_g0, l_tail_g1, l_leg_g2
+[03нояб.2026 16:09:42.103] [Render thread/INFO] [com.example.huggynpc.client.SkinMesh/]: [huggynpc] loaded huggynpc:models/entity/catnap.skin: 147 joints, 16885 vertices, 21336 quads, animations [idle, attack, run, dance, walk]
+[03нояб.2026 16:09:42.104] [Render thread/INFO] [com.example.huggynpc.client.RagdollParts/]: [huggynpc] ragdoll parts ready: body, head, lf_leg_g0, lf_tail_g1, lf_leg_g2, rf_leg_g0, rf_tail_g1, rf_leg_g2, lb_leg_g0, lb_tail_g1, lb_leg_g2, tail_t0, tail_leg_t1, tail_t2, rb_leg_g0, rb_tail_g1, rb_leg_g2
+[03нояб.2026 16:09:42.145] [Render thread/INFO] [com.example.huggynpc.client.SkinMesh/]: [huggynpc] loaded huggynpc:models/entity/huggy.skin: 96 joints, 17910 vertices, 7529 quads, animations [crouch, idle, attack, run, dance, walk, jump, crouchwalk, sit]
+[03нояб.2026 16:09:42.146] [Render thread/INFO] [com.example.huggynpc.client.RagdollParts/]: [huggynpc] ragdoll parts ready: body, head, l_arm_a, l_tail_b, l_arm_c, r_arm_a, r_tail_b, r_arm_c, l_leg_a, l_tail_d, l_leg_e, r_leg_a, r_tail_d, r_leg_e
+[03нояб.2026 16:09:42.147] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.148] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.148] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.148] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.148] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.148] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.148] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.148] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.148] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.148] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.148] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.149] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.149] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.149] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.149] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.149] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.149] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.150] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.150] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.150] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.150] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.150] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.150] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.150] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.150] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.150] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.150] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.152] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.152] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.152] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.152] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.152] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.152] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.152] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.152] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.152] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.159] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.159] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.159] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.159] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.159] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.159] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.159] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.159] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.159] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.159] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.159] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.159] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.160] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.160] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.160] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.160] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.160] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.160] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.160] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.160] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.160] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.160] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.160] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.160] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.161] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.161] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.161] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.161] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.161] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.161] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.161] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.161] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.161] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.161] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.161] [Render thread/ERROR] [net.minecraft.server.packs.PathPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.161] [Render thread/ERROR] [net.minecraft.server.packs.VanillaPackResources/]: Invalid path minecraft:: Invalid path ''
+[03нояб.2026 16:09:42.187] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/particles.png-atlas
+[03нояб.2026 16:09:42.191] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[03нояб.2026 16:09:42.192] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[03нояб.2026 16:09:42.192] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[03нояб.2026 16:09:42.193] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[03нояб.2026 16:09:42.220] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[03нояб.2026 16:09:42.278] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[03нояб.2026 16:09:42.278] [Render thread/INFO] [Veil/]: Loaded 2 framebuffers
+[03нояб.2026 16:09:42.288] [Render thread/INFO] [Veil/]: Loaded 3 post pipelines
+[03нояб.2026 16:09:42.293] [Render thread/INFO] [Veil/]: Loaded 4 render types
+[03нояб.2026 16:09:42.293] [Render thread/INFO] [Veil/]: Enabled bloom pipeline
+[03нояб.2026 16:09:42.295] [Render thread/INFO] [Veil/]: Loaded 0 quasar particles
+[03нояб.2026 16:09:42.296] [Render thread/INFO] [Veil/]: Loaded 0 templates
+[03нояб.2026 16:09:42.296] [Render thread/INFO] [Veil/]: Loaded 0 modules
+[03нояб.2026 16:09:43.520] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[03нояб.2026 16:09:43.832] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[03нояб.2026 16:09:44.368] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[03нояб.2026 16:09:44.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03нояб.2026 16:09:44.670] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:overworld] using RapierPhysicsPipelineProvider
+[03нояб.2026 16:09:44.892] [Server thread/ERROR] [dev.ryanhcode.sable.Sable/]: Failed to apply tag physics properties. Unknown block: create:flywheel
+[03нояб.2026 16:09:45.154] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_end] using RapierPhysicsPipelineProvider
+[03нояб.2026 16:09:45.155] [Server thread/ERROR] [dev.ryanhcode.sable.Sable/]: Failed to apply tag physics properties. Unknown block: create:flywheel
+[03нояб.2026 16:09:45.198] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Creating physics pipeline for ResourceKey[minecraft:dimension / minecraft:the_nether] using RapierPhysicsPipelineProvider
+[03нояб.2026 16:09:45.198] [Server thread/ERROR] [dev.ryanhcode.sable.Sable/]: Failed to apply tag physics properties. Unknown block: create:flywheel
+[03нояб.2026 16:09:45.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03нояб.2026 16:09:45.534] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[03нояб.2026 16:09:45.900] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 677 ms
+[03нояб.2026 16:09:45.905] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: CustomNPC PermissionNode<Boolean>s available:
+[03нояб.2026 16:09:45.906] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.blocks
+[03нояб.2026 16:09:45.906] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.villager
+[03нояб.2026 16:09:45.906] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.bank
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.dialog
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.faction
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.linked
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.naturalspawn
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.playerdata
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.quest
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.recipe
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.transport
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.advanced
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.ai
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.clone
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.create
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.delete
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.display
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.freeze
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.gui
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.inventory
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.reset
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.stats
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.scenes
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.soulstone.all
+[03нояб.2026 16:09:45.907] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.create
+[03нояб.2026 16:09:45.908] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.mob
+[03нояб.2026 16:09:45.908] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.mounter
+[03нояб.2026 16:09:45.908] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.nbtbook
+[03нояб.2026 16:09:45.908] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.pather
+[03нояб.2026 16:09:45.908] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.scripter
+[03нояб.2026 16:09:45.908] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[03нояб.2026 16:09:45.917] [Server thread/INFO] [dev.rifo.spraddition.SPRAddition/]: SablePlayerRagdoll Addition Server Starting. Loaded saved data.
+[03нояб.2026 16:09:46.042] [Server thread/INFO] [sable_player_ragdoll/]: [sable_player_ragdoll] ragdoll system active (debug=true)
+[03нояб.2026 16:09:46.043] [Server thread/INFO] [ragdoll_reactions/]: [ragdoll_reactions] accel/decel trigger active (debug=false)
+[03нояб.2026 16:09:46.313] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[03нояб.2026 16:09:46.314] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 8, from 0
+[03нояб.2026 16:09:46.375] [Server thread/INFO] [sable_player_ragdoll/]: [mob-ragdoll] restored 14 parts with 13 joints for entity d618c9ea-5fb4-4549-b32e-fab802585d55 (source entity loaded=true)
+[03нояб.2026 16:09:46.487] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Adding local UDP server channel future
+[03нояб.2026 16:09:46.498] [Render thread/WARN] [io.netty.bootstrap.Bootstrap/]: Unknown channel option 'SO_BROADCAST' for channel '[id: 0x12aa29bb]'
+[03нояб.2026 16:09:46.503] [Netty Server IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Server UDP channel active
+[03нояб.2026 16:09:46.518] [Render thread/INFO] [dev.ryanhcode.sable.Sable/]: Starting local client UDP channel future
+[03нояб.2026 16:09:46.526] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel active
+[03нояб.2026 16:09:47.645] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:3bf1091b] logged in with entity id 106 at (-140.73692171070056, 63.0, 66.37625904713714)
+[03нояб.2026 16:09:47.648] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Beginning attempted authentication with player Dev
+[03нояб.2026 16:09:47.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev присоединился к игре
+[03нояб.2026 16:09:47.818] [Render thread/INFO] [Iris/]: Reloading pipeline on dimension change: null => minecraft:overworld
+[03нояб.2026 16:09:47.819] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+[03нояб.2026 16:09:49.860] [Render thread/INFO] [Physics Mod/]: binding ocean attributes
+[03нояб.2026 16:09:49.869] [Render thread/INFO] [Physics Mod/]: binding ocean attributes
+[03нояб.2026 16:09:49.870] [Render thread/INFO] [Physics Mod/]: constructed ocean shader successfully
+[03нояб.2026 16:09:49.905] [Render thread/INFO] [Physics Mod/]: binding ocean attributes
+[03нояб.2026 16:09:49.908] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_area_scale in the specified shader program.
+[03нояб.2026 16:09:49.908] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_cascades in the specified shader program.
+[03нояб.2026 16:09:49.908] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_displacement_scale in the specified shader program.
+[03нояб.2026 16:09:49.908] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_domain_sizes in the specified shader program.
+[03нояб.2026 16:09:49.908] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_enabled in the specified shader program.
+[03нояб.2026 16:09:49.908] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_foam_opacity in the specified shader program.
+[03нояб.2026 16:09:49.908] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_foam_texture_contrast in the specified shader program.
+[03нояб.2026 16:09:49.908] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_foam_texture_scale in the specified shader program.
+[03нояб.2026 16:09:49.908] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_foam_texture_type in the specified shader program.
+[03нояб.2026 16:09:49.908] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_ocean_foam in the specified shader program.
+[03нояб.2026 16:09:49.909] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_padding in the specified shader program.
+[03нояб.2026 16:09:49.909] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_time in the specified shader program.
+[03нояб.2026 16:09:49.909] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_visible_areas in the specified shader program.
+[03нояб.2026 16:09:49.909] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft could not find uniform named physics_fft_weather_amplitude_scale in the specified shader program.
+[03нояб.2026 16:09:49.915] [Render thread/INFO] [Physics Mod/]: binding ocean attributes
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_area_scale in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_cascades in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_displacement_scale in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_domain_sizes in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_enabled in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_foam_opacity in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_foam_texture_contrast in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_foam_texture_scale in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_foam_texture_type in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_ocean_foam in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_padding in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_time in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_visible_areas in the specified shader program.
+[03нояб.2026 16:09:49.916] [Render thread/WARN] [Veil/]: Shader physics_ocean_fft_shadow could not find uniform named physics_fft_weather_amplitude_scale in the specified shader program.
+[03нояб.2026 16:09:49.932] [Render thread/INFO] [Physics Mod/]: binding liquid attributes
+[03нояб.2026 16:09:49.932] [Render thread/INFO] [Physics Mod/]: constructed liquids shader successfully
+[03нояб.2026 16:09:49.944] [Render thread/WARN] [Veil/]: Shader physics_smoke could not find uniform named physics_cameraOffset_Padding in the specified shader program.
+[03нояб.2026 16:09:49.944] [Render thread/WARN] [Veil/]: Shader physics_smoke could not find uniform named physics_invProjectionMatrix in the specified shader program.
+[03нояб.2026 16:09:49.944] [Render thread/WARN] [Veil/]: Shader physics_smoke could not find uniform named physics_projectionMatrix in the specified shader program.
+[03нояб.2026 16:09:49.944] [Render thread/WARN] [Veil/]: Shader physics_smoke could not find uniform named physics_smokeColor_Density in the specified shader program.
+[03нояб.2026 16:09:49.944] [Render thread/WARN] [Veil/]: Shader physics_smoke could not find uniform named physics_smokeDenseColor_RenderPercent in the specified shader program.
+[03нояб.2026 16:09:49.944] [Render thread/WARN] [Veil/]: Shader physics_smoke could not find uniform named physics_viewMatrix in the specified shader program.
+[03нояб.2026 16:09:49.944] [Render thread/WARN] [Veil/]: Shader physics_smoke could not find uniform named physics_zZeroToOne in the specified shader program.
+[03нояб.2026 16:09:49.951] [Render thread/WARN] [Veil/]: Shader physics_smoke_shadow could not find uniform named physics_cameraOffset_Padding in the specified shader program.
+[03нояб.2026 16:09:49.951] [Render thread/WARN] [Veil/]: Shader physics_smoke_shadow could not find uniform named physics_invProjectionMatrix in the specified shader program.
+[03нояб.2026 16:09:49.952] [Render thread/WARN] [Veil/]: Shader physics_smoke_shadow could not find uniform named physics_projectionMatrix in the specified shader program.
+[03нояб.2026 16:09:49.952] [Render thread/WARN] [Veil/]: Shader physics_smoke_shadow could not find uniform named physics_smokeColor_Density in the specified shader program.
+[03нояб.2026 16:09:49.952] [Render thread/WARN] [Veil/]: Shader physics_smoke_shadow could not find uniform named physics_smokeDenseColor_RenderPercent in the specified shader program.
+[03нояб.2026 16:09:49.952] [Render thread/WARN] [Veil/]: Shader physics_smoke_shadow could not find uniform named physics_viewMatrix in the specified shader program.
+[03нояб.2026 16:09:49.952] [Render thread/WARN] [Veil/]: Shader physics_smoke_shadow could not find uniform named physics_zZeroToOne in the specified shader program.
+[03нояб.2026 16:09:50.320] [Render thread/INFO] [ChunkBuilder/]: Started 10 worker threads
+[03нояб.2026 16:09:50.818] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[03нояб.2026 16:09:51.147] [Render thread/ERROR] [dev.ryanhcode.sable.Sable/]: Failed to apply tag physics properties. Unknown block: create:flywheel
+[03нояб.2026 16:09:51.253] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[03нояб.2026 16:09:51.270] [Render thread/INFO] [ChunkBuilder/]: Started 10 worker threads
+[03нояб.2026 16:09:51.433] [Render thread/WARN] [Sodium-VertexConsumerTracker/]: Class com.mojang.blaze3d.vertex.BufferBuilder does not support optimized vertex writing code paths, which may cause reduced rendering performance
+[03нояб.2026 16:09:52.584] [Thread-35/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] CustomNpcs installed. For more info Click here
+[03нояб.2026 16:09:54.355] [Render thread/ERROR] [gg.essential.gui.modals.ConnectionManagerErrorModal/]: Unknown authentication exception
+gg.essential.gui.menu.AccountManager$UnknownAccountException: Unknown account
+	at TRANSFORMER/essential@1.4.1.1/gg.essential.gui.menu.AccountManager$Companion.refreshSession(AccountManager.kt:184) ~[Essential%20(neoforge_1.21.1).jar%23291!/:?]
+	at TRANSFORMER/essential@1.4.1.1/gg.essential.gui.menu.AccountManager$Companion.refreshCurrentSession(AccountManager.kt:141) ~[Essential%20(neoforge_1.21.1).jar%23291!/:?]
+	at TRANSFORMER/essential@1.4.1.1/gg.essential.network.connectionmanager.ConnectionManagerKt$connectLoop$error$2.invokeSuspend(ConnectionManagerKt.kt:184) ~[Essential%20(neoforge_1.21.1).jar%23291!/:?]
+	at LAYER PLUGIN/kotlin.stdlib/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34) ~[kotlin-stdlib-2.3.0.jar%23214!/:2.3.0-release-356]
+	at LAYER PLUGIN/kotlinx.coroutines.core/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100) ~[kotlinx-coroutines-core-jvm-1.10.2.jar%23211!/:?]
+	at TRANSFORMER/essential@1.4.1.1/gg.essential.util.TargetThreadExecutor.run(TargetThreadExecutor.kt:38) ~[Essential%20(neoforge_1.21.1).jar%23291!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.handler$cdd000$essential$runEssentialExecutorDuringInit(Minecraft.java:12059) ~[neoforge-21.1.248.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.<init>(Minecraft.java:494) ~[neoforge-21.1.248.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:214) ~[neoforge-21.1.248.jar%23216!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.43.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.43.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.43.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.43.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23128!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[03нояб.2026 16:09:54.454] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03нояб.2026 16:09:54.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[03нояб.2026 16:09:54.487] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:overworld
+[03нояб.2026 16:09:54.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[03нояб.2026 16:09:54.578] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_end
+[03нояб.2026 16:09:54.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[03нояб.2026 16:09:54.579] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
+[03нояб.2026 16:09:54.609] [Render thread/WARN] [Sodium-VertexConsumerTracker/]: Class net.minecraft.client.renderer.SpriteCoordinateExpander does not support optimized vertex writing code paths, which may cause reduced rendering performance
+[03нояб.2026 16:09:54.697] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader cabb2374eda405e66b897908637abd1da5deac52 could not find uniform named subpixel_amount in the specified shader program.
+[03нояб.2026 16:10:13.986] [Render thread/INFO] [com.example.huggynpc.client.ClientSetup/]: [huggynpc] fps=8 entities=153
+[03нояб.2026 16:10:16.023] [Render thread/INFO] [com.example.huggynpc.client.ClientSetup/]: [huggynpc] fps=7 entities=155
+[03нояб.2026 16:10:16.855] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03нояб.2026 16:10:16.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[03нояб.2026 16:10:16.869] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:overworld
+[03нояб.2026 16:10:16.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[03нояб.2026 16:10:16.900] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_end
+[03нояб.2026 16:10:16.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[03нояб.2026 16:10:16.900] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
+[03нояб.2026 16:10:20.083] [Render thread/INFO] [com.example.huggynpc.client.ClientSetup/]: [huggynpc] fps=9 entities=154
+[03нояб.2026 16:10:22.099] [Render thread/INFO] [com.example.huggynpc.client.ClientSetup/]: [huggynpc] fps=5 entities=154
+[03нояб.2026 16:10:22.703] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03нояб.2026 16:10:22.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[03нояб.2026 16:10:22.717] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:overworld
+[03нояб.2026 16:10:22.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[03нояб.2026 16:10:22.742] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_end
+[03нояб.2026 16:10:22.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[03нояб.2026 16:10:22.742] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
+[03нояб.2026 16:37:20.721] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[03нояб.2026 16:37:20.733] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Client UDP channel inactive
+[03нояб.2026 16:37:20.735] [Netty Local Client IO #1/INFO] [dev.ryanhcode.sable.Sable/]: Closed UDP channel!
+[03нояб.2026 16:37:21.047] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Отключение
+[03нояб.2026 16:37:21.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev покинул игру
+[03нояб.2026 16:37:21.095] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[03нояб.2026 16:37:21.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[03нояб.2026 16:37:21.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[03нояб.2026 16:37:21.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[03нояб.2026 16:37:21.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[03нояб.2026 16:37:21.760] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:overworld
+[03нояб.2026 16:37:21.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[03нояб.2026 16:37:21.921] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_end
+[03нояб.2026 16:37:21.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[03нояб.2026 16:37:21.928] [Server thread/INFO] [dev.ryanhcode.sable.Sable/]: Saving sub-levels for level 'ServerLevel[New World]'/minecraft:the_nether
+[03нояб.2026 16:37:21.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[03нояб.2026 16:37:21.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03нояб.2026 16:37:21.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03нояб.2026 16:37:21.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03нояб.2026 16:37:22.018] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads

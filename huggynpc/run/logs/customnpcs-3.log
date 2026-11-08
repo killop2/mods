@@ -1,0 +1,7 @@
+[06:05:24][FINE/customnpcs][noppes.npcs.shared.common.util.LogWriter:62] Tue Nov 03 06:05:24 EET 2026
+[06:05:24][FINE/customnpcs][noppes.npcs.controllers.ScriptController:55] Script Engines Available:
+[06:05:38][FINE/customnpcs][noppes.npcs.controllers.ScriptController:114] ECMAScript: .js
+[06:05:48][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:42] Loading Linked Npcs
+[06:05:48][FINE/customnpcs][noppes.npcs.controllers.LinkedNpcController:62] Done loading Linked Npcs
+[06:05:50][FINE/customnpcs][noppes.npcs.controllers.DialogController:43] Loading Dialogs
+[06:05:50][FINE/customnpcs][noppes.npcs.controllers.DialogController:45] Done loading Dialogs

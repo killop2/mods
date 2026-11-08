@@ -1,0 +1,8 @@
+{
+  "selector": "#waterslide:slide",
+
+  "properties": {
+    "sable:friction": 0.02,
+    "sable:restitution": 0.0
+  }
+}

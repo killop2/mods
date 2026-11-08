@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT (code); model CC-BY-4.0 by Xoffly"
+
+[[mods]]
+modId = "huggynpc"
+version = "1.0.0"
+displayName = "Huggy NPC"
+authors = "freevpsdisk"
+credits = '''This work is based on "Project Playtime | Voxel Huggy" (https://sketchfab.com/3d-models/project-playtime-voxel-huggy-fff4776e9aa743ecb8d9fca78b13e358) by Xoffly (https://sketchfab.com/Xoffly) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)'''
+description = '''Animated voxel Huggy Wuggy model (idle, walk, run, attack, jump, crouch, sit, dance).
+Custom NPCs: NPC Wand -> Display -> Model -> Entities -> "Huggy Wuggy". The NPC keeps all Custom NPCs logic and physics.
+Without Custom NPCs: use the Huggy Wuggy spawn egg.
+Model: "Project Playtime | Voxel Huggy" by Xoffly, CC-BY-4.0.'''
+
+[[mixins]]
+config = "huggynpc.mixins.json"
+
+[[dependencies.huggynpc]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.huggynpc]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"

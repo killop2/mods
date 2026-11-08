@@ -1,0 +1,43 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.140'
+}
+
+version = '1.0.0'
+group = 'com.example.huggynpc'
+
+base {
+    archivesName = 'huggynpc-1.21.1'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    // same NeoForge build as the game (.minecraft profile neoforge-21.1.248); Sable needs >= 21.1.228
+    version = '21.1.248'
+
+    runs {
+        client {
+            client()
+        }
+    }
+
+    mods {
+        huggynpc {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    // Sodium's vertex writer API for the fast NPC mesh path; only used when Sodium is installed, nothing is bundled
+    compileOnly files('D:/mods/tools/libs/sodium-0.8.13-mod.jar')
+}
+
+// No compile dependency on CustomNPCs: it finds the Huggy entity through the entity registry,
+// and the NPC animation mode is read through reflection (NpcCompat).
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+

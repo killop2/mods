@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: customnpcs
+Specification-Vendor: customnpcs
+Specification-Version: 1
+Implementation-Title: customnpcs-1.21.1-neo
+Implementation-Version: 1.21.1.20251230
+Implementation-Vendor: customnpcs
+Implementation-Timestamp: 2025-12-30T18:42:58+0300
+MixinConfigs: customnpcs.mixins.json
+

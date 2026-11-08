@@ -1,0 +1,18 @@
+{
+  "car.engine": {
+    "subtitle": "subtitles.flatoutcar.car.engine",
+    "sounds": [{ "name": "minecraft:entity.minecart.riding", "type": "event" }]
+  },
+  "car.crash": {
+    "subtitle": "subtitles.flatoutcar.car.crash",
+    "sounds": [{ "name": "minecraft:entity.zombie.attack_iron_door", "type": "event" }]
+  },
+  "car.bump": {
+    "subtitle": "subtitles.flatoutcar.car.bump",
+    "sounds": [{ "name": "minecraft:entity.zombie.attack_wooden_door", "type": "event" }]
+  },
+  "car.eject": {
+    "subtitle": "subtitles.flatoutcar.car.eject",
+    "sounds": [{ "name": "minecraft:block.glass.break", "type": "event" }]
+  }
+}

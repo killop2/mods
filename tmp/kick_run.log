@@ -1,0 +1,12 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+
+> Task :downloadAssets
+Loaded 145 artifacts from D:\mods\kickmod\build\tmp\downloadAssets\nfrt_artifact_manifest.properties
+Downloading asset index 17
+Using Minecraft asset root: D:\mods\.gradle\caches\neoformruntime\assets
+  DL    https://piston-meta.mojang.com/v1/packages/cd09c6948871a888359b45607a1dfac4e97f2561/17.json
+100/3888 downloads
+200/3888 downloads

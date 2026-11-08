@@ -1,0 +1,15 @@
+{
+  "item.waterslide.water_slide": "Water Slide: Classic",
+  "item.waterslide.water_slide_drop": "Water Slide: Drop",
+  "item.waterslide.water_slide_spiral": "Water Slide: Spiral",
+  "item.waterslide.water_slide_serpentine": "Water Slide: Serpentine",
+  "item.waterslide.dark_carnival_slide": "Water Slide: Dark Carnival",
+  "item.waterslide.dark_carnival_slide.tip3": "Obstacle course: paddle wheel, ramp through a ring of fire, jester hammer, boost hoops",
+  "item.waterslide.water_slide.tip1": "Left click: place a water slide in front of you",
+  "item.waterslide.water_slide.tip2": "Break any part of the slide to remove all of it",
+  "block.waterslide.part": "Water Slide",
+  "block.waterslide.anchor": "Water Slide",
+  "message.waterslide.placed": "Water slide placed! Get onto the start platform and slide down.",
+  "message.waterslide.blocked": "Can't place the water slide here: something is in the way.",
+  "message.waterslide.removed": "Water slide removed."
+}

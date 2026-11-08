@@ -1,0 +1,76 @@
+#Sable Player Ragdoll Addition configuration
+[death]
+	#When true, a ragdoll is spawned at the player's death location with their skin.
+	spawnRagdollOnDeath = true
+	#When true, the player's full inventory is stored in the TORSO of the death ragdoll instead of dropping normally. Items drop when the ragdoll expires.
+	transferInventoryToRagdoll = true
+	#When true, death ragdolls will be automatically removed after a delay if their inventory is empty.
+	autoRemoveEmptyRagdolls = true
+	#The delay (in seconds) before an empty death ragdoll is automatically removed (if autoRemoveEmptyRagdolls is true). Default is 60.
+	# Default: 60
+	# Range: 1 ~ 3600
+	emptyRagdollRemovalTimer = 60
+	#The absolute delay (in seconds) before ANY death ragdoll is automatically removed, even if it contains items. Default is 300 (5 minutes). Set to 0 to disable.
+	# Default: 300
+	# Range: 0 ~ 86400
+	absoluteRagdollRemovalTimer = 300
+
+#Ragdoll grabbing physics configuration
+[grab_physics]
+	#Stiffness of the grabbing constraint (lower = heavier). Default is 35.0 (original was 70.0).
+	# Default: 35.0
+	# Range: 0.0 ~ 1000.0
+	grabStiffness = 35.0
+	#Damping of the grabbing constraint. Default is 15.0 (original was 12.0).
+	# Default: 15.0
+	# Range: 0.0 ~ 1000.0
+	grabDamping = 15.0
+	#Maximum force of the grabbing constraint (lower = heavier). Default is 80.0 (original was 180.0).
+	# Default: 80.0
+	# Range: 0.0 ~ 1000.0
+	grabMaxForce = 80.0
+	#Movement speed multiplier when grabbing a ragdoll. Default is 0.5 (50% speed).
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	grabSpeedMultiplier = 0.5
+	#Maximum distance the player can be from the ragdoll before the grab breaks. Default is 3.0.
+	# Default: 3.0
+	# Range: 1.0 ~ 100.0
+	grabMaxDistance = 3.0
+
+#Automatic ragdoll from fall speed and ragdoll impact damage
+[fall_ragdoll]
+	#When true, the player is automatically put into ragdoll mode when falling faster than the configured speed threshold.
+	fallRagdollEnabled = true
+	#The downward speed (blocks per second) at which the player is automatically ragdolled. Default is 14.0 (roughly 3+ block freefall).
+	# Default: 20.0
+	# Range: 1.0 ~ 100.0
+	fallRagdollSpeedThreshold = 20.0
+	#When true, a player in ragdoll mode takes fall damage upon landing (same formula as normal fall damage). Requires fallRagdollEnabled.
+	ragdollImpactDamageEnabled = true
+	#Multiplier applied to the ragdoll impact damage. 1.0 = same as normal fall damage.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	ragdollImpactDamageMultiplier = 1.0
+
+#Ragdoll from nearby explosion
+[explosion_ragdoll]
+	#When true, players hit by an explosion are automatically ragdolled and launched in the blast direction.
+	explosionRagdollEnabled = true
+	#Impulse scale applied to the player when ragdolled by an explosion. Default is 28.0.
+	# Default: 28.0
+	# Range: 0.0 ~ 200.0
+	explosionRagdollImpulse = 28.0
+	#Multiplier for impulse applied to an already existing ragdoll hit by an explosion. Default is 1.0.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	explosionExistingRagdollMultiplier = 1.0
+
+#Inventory interaction configuration
+[inventory]
+	#When true, players can place items into a live ragdoll's inventory.
+	liveRagdollAllowPlacing = true
+	#When true, players can take items out of a live ragdoll's inventory.
+	liveRagdollAllowTaking = true
+	#When true, players can take items out of a death ragdoll's inventory.
+	deathRagdollAllowTaking = true

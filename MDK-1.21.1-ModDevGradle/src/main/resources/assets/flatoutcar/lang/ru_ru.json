@@ -1,0 +1,10 @@
+{
+  "item.flatoutcar.car_spawner": "BMW M3 GTR",
+  "entity.flatoutcar.car": "BMW M3 GTR",
+  "key.flatoutcar.eject": "Вылететь через лобовое стекло",
+  "key.categories.flatoutcar": "Flatout Car",
+  "subtitles.flatoutcar.car.engine": "Рёв мотора",
+  "subtitles.flatoutcar.car.crash": "Машина разбилась",
+  "subtitles.flatoutcar.car.bump": "Машина ударилась",
+  "subtitles.flatoutcar.car.eject": "Лобовое стекло разбилось"
+}

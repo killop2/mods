@@ -1,0 +1,16 @@
+joints 147, vertices 18883, materials [MI_CatNap_Eye, MI_CatNap]
+anim SK_CatNap_Main|A_catnap_attk_killPlayer                      1.63s 50 frames
+anim SK_CatNap_Main|A_CatNap_Idle_Search                          7.50s 226 frames
+anim SK_CatNap_Main|A_CatNap_Idle_Search_Turn_180L                1.88s 57 frames
+anim SK_CatNap_Main|A_CatNap_Idle_Search_Turn_180R                1.88s 57 frames
+anim SK_CatNap_Main|A_CatNap_Idle_Search_Turn_90L                 1.88s 57 frames
+anim SK_CatNap_Main|A_CatNap_Idle_Search_Turn_90R                 1.88s 57 frames
+anim SK_CatNap_Main|A_CatNap_Idle_Search_Turn_InPlaceL            1.88s 57 frames
+anim SK_CatNap_Main|A_CatNap_Idle_Search_Turn_InPlaceR            1.88s 57 frames
+anim SK_CatNap_Main|A_CatNap_Pursue_Walk                          1.21s 37 frames
+anim SK_CatNap_Main|A_CatNap_Search_PlayerSpotted                 3.75s 114 frames
+anim SK_CatNap_Main|A_CatNap_Search_PlayerSpotted.001             3.75s 114 frames
+anim SK_CatNap_Main|A_CatNap_Walk_Search                          6.00s 181 frames
+anim SK_CatNap_Main|A_CatNap_Walk_Search_ForwardLeft              6.00s 181 frames
+anim SK_CatNap_Main|A_CatNap_Walk_Search_ForwardRight             6.00s 181 frames
+written D:\mods\tmp\npc\catnap\scene.gltf (9781176 bytes binary)

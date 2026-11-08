@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "kickmod"
+version = "1.0.0"
+displayName = "Kick Ragdoll"
+description = '''Press Numpad 9 in front of a mob or NPC: your character plays a kick animation (side camera), the target flies off as a Sable ragdoll and stays down until /unragdoll.'''
+
+[[mixins]]
+config = "kickmod.mixins.json"
+
+[[dependencies.kickmod]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.kickmod]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.kickmod]]
+modId = "sable_player_ragdoll"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

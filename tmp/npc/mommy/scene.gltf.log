@@ -1,0 +1,8 @@
+joints 162, vertices 18136, materials [MI_MommyBody_Default_1001, MI_MommyBody_Default_1002, M_MommyLongLegsTemp3]
+anim SK_MommyLongLegs.ao|A_Mommy_Dance                            20.17s 606 frames
+anim SK_MommyLongLegs.ao|A_Mommy_FallLoop                         1.17s 36 frames
+anim SK_MommyLongLegs.ao|A_Mommy_Idle                             4.25s 129 frames
+anim SK_MommyLongLegs.ao|A_Mommy_Sit_Idle                         4.04s 122 frames
+anim SK_MommyLongLegs.ao|A_Mommy_SwipeRight                       0.88s 27 frames
+anim SK_MommyLongLegs.ao|A_Mommy_WalkNoStride                     1.25s 39 frames
+written D:\mods\tmp\npc\mommy\scene.gltf (6342328 bytes binary)

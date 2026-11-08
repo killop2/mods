@@ -1,0 +1,42 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.140'
+}
+
+version = '1.0.0'
+group = 'com.example.wheelofwonder'
+
+base {
+    archivesName = 'wheelofwonder-1.21.1'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    // same NeoForge build as kickmod / huggynpc / flatoutcar, so nothing new is downloaded
+    version = '21.1.219'
+
+    runs {
+        client {
+            client()
+        }
+    }
+
+    mods {
+        wheelofwonder {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    // Sable physics API (RigidBodyHandle) for steering the ragdoll bodies; only compiled against, nothing is bundled.
+    // The classes that use it are only loaded when Sable is installed (WheelRagdolls checks ModList first).
+    compileOnly files('C:/Users/User/AppData/Roaming/.minecraft/mods/sable-neoforge-1.21.1-2.0.3.jar')
+}
+
+// Sable: Ragdolls itself is called through reflection (WheelRagdolls), like kickmod's RagdollBridge.
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

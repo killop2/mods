@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "waterslide"
+version = "1.0.0"
+displayName = "Water Slide"
+description = '''Water slide spawner: hold it and left-click to build a spiral water slide in front of you. Shift + left-click on a slide removes it. Players, mobs, NPCs and Sable ragdolls slide down it.'''
+
+[[dependencies.waterslide]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.waterslide]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.waterslide]]
+modId = "sable"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

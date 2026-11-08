@@ -1,0 +1,1 @@
+{ "variants": { "facing=north": { "model": "waterslide:block/invisible" }, "facing=south": { "model": "waterslide:block/invisible" }, "facing=east": { "model": "waterslide:block/invisible" }, "facing=west": { "model": "waterslide:block/invisible" } } }

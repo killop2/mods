@@ -1,0 +1,9 @@
+joints 213, vertices 6833, materials [MI_Doey]
+anim SK_Doey_Biped_LOD0_Skeleton|A_Doey_Base_IdleInjured          2.30s 70 frames
+anim SK_Doey_Biped_LOD0_Skeleton|A_Doey_DoubleBounceWalk_L5       2.63s 80 frames
+anim SK_Doey_Biped_LOD0_Skeleton|A_Doey_HandPointstoDoor_ch4      1.93s 59 frames
+anim SK_Doey_Biped_LOD0_Skeleton|A_Doey_Idle                      3.33s 101 frames
+anim SK_Doey_Biped_LOD0_Skeleton|A_Doey_Idle_HandsUp              8.53s 257 frames
+anim SK_Doey_Biped_LOD0_Skeleton|A_Doey_RagTimeGal_L5             2.63s 80 frames
+anim SK_Doey_Biped_LOD0_Skeleton|A_Doey_WalkCycle                 1.00s 31 frames
+written D:\mods\tmp\npc\doey\scene.gltf (4414192 bytes binary)

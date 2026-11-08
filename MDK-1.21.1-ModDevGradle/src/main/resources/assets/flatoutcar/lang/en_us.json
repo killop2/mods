@@ -1,0 +1,10 @@
+{
+  "item.flatoutcar.car_spawner": "BMW M3 GTR",
+  "entity.flatoutcar.car": "BMW M3 GTR",
+  "key.flatoutcar.eject": "Eject through windshield",
+  "key.categories.flatoutcar": "Flatout Car",
+  "subtitles.flatoutcar.car.engine": "Engine roars",
+  "subtitles.flatoutcar.car.crash": "Car crashes",
+  "subtitles.flatoutcar.car.bump": "Car bumps",
+  "subtitles.flatoutcar.car.eject": "Windshield shatters"
+}

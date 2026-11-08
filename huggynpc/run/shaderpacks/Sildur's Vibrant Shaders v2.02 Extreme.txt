@@ -1,0 +1,13 @@
+#Tue Nov 03 16:09:33 EET 2026
+Caustics=false
+Cloud_reflection=false
+Clouds=2
+ColoredShadows=false
+PCSS=false
+RainReflections=false
+Rain_Drops=false
+SSDO=false
+grass_shadows=false
+shadowDistance=80.0
+shadowMapResolution=2048
+shadow_samples=6

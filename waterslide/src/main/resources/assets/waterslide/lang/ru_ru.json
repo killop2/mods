@@ -1,0 +1,15 @@
+{
+  "item.waterslide.water_slide": "Водная горка «Классика»",
+  "item.waterslide.water_slide_drop": "Водная горка «Обрыв»",
+  "item.waterslide.water_slide_spiral": "Водная горка «Спираль»",
+  "item.waterslide.water_slide_serpentine": "Водная горка «Змейка»",
+  "item.waterslide.dark_carnival_slide": "Водная горка «Тёмный карнавал»",
+  "item.waterslide.dark_carnival_slide.tip3": "Полоса препятствий: колесо-шлёпалка, трамплин сквозь огненное кольцо, молот шута, кольца ускорения",
+  "item.waterslide.water_slide.tip1": "ЛКМ: поставить водную горку перед собой",
+  "item.waterslide.water_slide.tip2": "Сломайте любую часть горки, чтобы убрать её целиком",
+  "block.waterslide.part": "Водная горка",
+  "block.waterslide.anchor": "Водная горка",
+  "message.waterslide.placed": "Водная горка установлена! Поднимитесь на стартовую платформу и катитесь.",
+  "message.waterslide.blocked": "Невозможно установить этот объект здесь: мешает препятствие.",
+  "message.waterslide.removed": "Водная горка убрана."
+}

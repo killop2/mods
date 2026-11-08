@@ -1,0 +1,6 @@
+{
+  "key.categories.kickmod": "Kick Ragdoll",
+  "key.kickmod.kick": "Удар ногой по мобу / NPC",
+  "kickmod.msg.no_target": "Перед вами нет моба или NPC",
+  "kickmod.msg.released": "Поднято рэгдоллов: %s"
+}

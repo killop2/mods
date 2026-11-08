@@ -1,0 +1,60 @@
+#Ragdoll launch when ejecting (G key or crash). Units: m/s (= blocks per second).
+[eject]
+	#Forward launch speed even when the car stands still.
+	# Default: 14.0
+	# Range: 0.0 ~ 128.0
+	forwardBase = 14.0
+	#Extra forward speed per 1 m/s of car speed (car top speed is 32 m/s).
+	# Default: 0.9
+	# Range: 0.0 ~ 10.0
+	forwardPerCarSpeed = 0.9
+	#Upward launch speed even when the car stands still. Flight height grows with the square of it.
+	# Default: 18.4
+	# Range: 0.0 ~ 128.0
+	upBase = 18.4
+	#Extra upward speed per 1 m/s of car speed.
+	# Default: 0.42
+	# Range: 0.0 ~ 10.0
+	upPerCarSpeed = 0.42
+	#Upper limit for the total launch speed.
+	# Default: 60.0
+	# Range: 1.0 ~ 128.0
+	maxLaunchSpeed = 60.0
+
+#Automatic eject when the car hits a block or an entity.
+[crash]
+	#Eject the driver as a ragdoll on a hard crash.
+	enabled = true
+	#Minimum car speed (km/h) at the moment of impact. Car top speed is ~115 km/h.
+	# Default: 45.0
+	# Range: 5.0 ~ 200.0
+	minSpeedKmh = 45.0
+
+#Running over mobs, NPCs and other players.
+#Hit mobs become ragdolls first (via Ragdoll Reactions / Sable: Ragdolls); if a mob cannot ragdoll, it dies.
+#Launch speed follows an inelastic impact: light mobs fly fast, heavy ones (iron golem, ravager) barely move
+#and stop the car like a wall.
+[mobs]
+	#Enable hitting mobs/NPCs/players with the car.
+	enabled = true
+	#Minimum car speed (km/h) for a hit to launch a mob.
+	# Default: 12.0
+	# Range: 1.0 ~ 200.0
+	minSpeedKmh = 12.0
+	#Multiplier for mob launch speed (1.0 = physics estimate).
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	launchMultiplier = 1.0
+	#Kill mobs that cannot become a ragdoll. If false, they only get speed-based damage.
+	killIfNoRagdoll = true
+	#Hit mobs stay lying on the ground as ragdoll corpses and never get up.
+	#If false, they get up again when the ragdoll settles (Ragdoll Reactions behaviour).
+	corpses = true
+	#How long a corpse stays, in seconds. 0 = forever (costs physics performance over time).
+	# Default: 600
+	# Range: 0 ~ 86400
+	corpseLifetimeSeconds = 600
+	#Maximum corpses per dimension; the oldest disappears first. Each corpse is a physics body.
+	# Default: 40
+	# Range: 1 ~ 1000
+	maxCorpses = 40

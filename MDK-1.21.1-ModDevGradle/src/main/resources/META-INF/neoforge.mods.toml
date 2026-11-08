@@ -1,0 +1,24 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "flatoutcar"
+version = "1.0.0"
+displayName = "Flatout Car"
+credits = "Car model: BMW M3 GTR E46 (NFS: Most Wanted style), Blockbench model supplied by the mod author"
+description = '''Drivable arcade car. Press the eject key to fly through the windshield as a Sable ragdoll (Flatout 2 style).'''
+
+[[dependencies.flatoutcar]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.flatoutcar]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"

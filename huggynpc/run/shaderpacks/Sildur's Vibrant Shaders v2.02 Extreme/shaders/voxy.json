@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "excludeLodsFromVanillaDepth": false,
+  "opaqueDrawBuffers": [4, 1, 2],
+  "translucentDrawBuffers": [4, 1, 2],
+  "blending": {
+  },
+  "uniforms": [
+    "vxModelView",
+    "vxModelViewInv",
+    "vxRenderDistance"
+    ],
+    "samplers": {
+    },
+    "opaquePatchData":"
+        #include "voxy.glsl"
+    ",
+    "translucentPatchData":"
+        #include "voxy.glsl"
+    "
+}

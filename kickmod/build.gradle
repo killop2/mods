@@ -1,0 +1,41 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.140'
+}
+
+version = '1.0.0'
+group = 'com.example.kickmod'
+
+base {
+    archivesName = 'kickmod-1.21.1'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    // same NeoForge build as the cached flatoutcar project, so nothing new is downloaded
+    version = '21.1.219'
+
+    runs {
+        client {
+            client()
+        }
+    }
+
+    mods {
+        kickmod {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    // only for compiling RagdollJointMixin against the Sable constraint API; nothing is bundled
+    compileOnly files('C:/Users/User/AppData/Roaming/.minecraft/mods/sable-neoforge-1.21.1-2.0.3.jar')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+// No compile dependency on the ragdoll mods: Sable: Ragdolls is called through reflection (RagdollBridge).

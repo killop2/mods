@@ -1,0 +1,31 @@
+material 0 MI_Doey -> 4096px texture
+atlas 2048x2048, 1 materials in 1x1 tiles, 6833 vertices
+forward yaw 0.0 deg
+idle bbox h=317.6599 -> scale 0.009 blocks/unit
+idle pose in blocks: x[-1.07 1.07] y[0.00 2.80] z[-0.51 0.51]
+welded vertices 6833 / 6833
+quads 7434 from 11420 triangles
+anim idle     <- A_Doey_Idle                     3.33s   68 frames  rot 121 tr 65 sc 9  (1/3: h 2.79, x[-1.06 1.06] z[-0.51 0.48])
+anim walk     <- A_Doey_WalkCycle                1.00s   21 frames  rot 127 tr 74 sc 11  (1/3: h 2.70, x[-1.23 1.04] z[-0.53 0.91])
+  root motion removed from SK_Doey_Biped_LOD0_Skeleton|A_Doey_DoubleBounceWalk_L5: 34.6 units
+anim run      <- A_Doey_DoubleBounceWalk_L5      2.63s   54 frames  rot 129 tr 96 sc 37  (1/3: h 1.95, x[-0.63 0.58] z[-2.17 0.77])
+anim attack   <- A_Doey_Idle_HandsUp             8.53s  172 frames  rot 125 tr 64 sc 9  (1/3: h 2.76, x[-0.68 0.68] z[-0.52 0.58])
+anim dance    <- A_Doey_Base_WaveLoop            2.97s   60 frames  rot 127 tr 75 sc 11  (1/3: h 2.70, x[-1.09 1.86] z[-0.50 0.81])
+ragdoll parts: [body, r_leg_g0, r_tail_g1, r_leg_g2, l_leg_g0, l_tail_g1, l_leg_g2, l_arm_a0, l_tail_a1, l_arm_a2, r_arm_a0, r_tail_a1, r_arm_a2, head]
+ragdoll boxes shrunk 7 times to remove overlaps
+ragdoll body         parent -          x[-0.43 0.44] y[0.29 1.40] z[-0.51 0.46]
+ragdoll r_leg_g0     parent body       x[-0.64 -0.54] y[0.30 0.64] z[-0.31 0.22]
+ragdoll r_tail_g1    parent r_leg_g0   x[-0.60 -0.17] y[0.17 0.25] z[-0.33 0.26]
+ragdoll r_leg_g2     parent r_tail_g1  x[-0.58 -0.27] y[0.00 0.12] z[-0.21 0.13]
+ragdoll l_leg_g0     parent body       x[0.54 0.64] y[0.30 0.64] z[-0.31 0.22]
+ragdoll l_tail_g1    parent l_leg_g0   x[0.17 0.61] y[0.14 0.27] z[-0.33 0.26]
+ragdoll l_leg_g2     parent l_tail_g1  x[0.28 0.58] y[0.00 0.12] z[-0.21 0.13]
+ragdoll l_arm_a0     parent body       x[0.10 0.57] y[1.18 1.52] z[-0.27 0.24]
+ragdoll l_tail_a1    parent l_arm_a0   x[0.52 0.80] y[0.70 1.31] z[-0.23 0.16]
+ragdoll l_arm_a2     parent l_tail_a1  x[0.66 1.05] y[0.21 0.86] z[-0.10 0.36]
+ragdoll r_arm_a0     parent body       x[-0.57 -0.10] y[1.17 1.54] z[-0.27 0.25]
+ragdoll r_tail_a1    parent r_arm_a0   x[-0.85 -0.45] y[0.72 1.32] z[-0.18 0.19]
+ragdoll r_arm_a2     parent r_tail_a1  x[-1.05 -0.66] y[0.19 0.84] z[-0.10 0.33]
+ragdoll head         parent body       x[-0.33 0.34] y[1.54 2.78] z[-0.16 0.51]
+head bone: head_C0_0_jnt
+written 675526 bytes

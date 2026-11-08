@@ -1,0 +1,1 @@
+{ "parent": "minecraft:item/generated", "textures": { "layer0": "waterslide:item/dark_carnival_slide" } }

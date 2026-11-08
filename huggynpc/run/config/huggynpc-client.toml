@@ -1,0 +1,20 @@
+#Animation choice and playback speed. Speeds are in blocks per tick (0.1 = 2 m/s).
+[animation]
+	#Speed at which the walk animation plays at normal rate (faster NPCs play it faster).
+	# Default: 0.09
+	# Range: 0.01 ~ 1.0
+	walkSpeedRef = 0.09
+	#Above this speed the run animation is used instead of walk.
+	# Default: 0.17
+	# Range: 0.01 ~ 2.0
+	runThreshold = 0.17
+	#Speed at which the run animation plays at normal rate.
+	# Default: 0.3
+	# Range: 0.01 ~ 2.0
+	runSpeedRef = 0.3
+	#Playback rate of the attack animation (1.0 = 1.3 s per hit).
+	# Default: 1.3
+	# Range: 0.2 ~ 5.0
+	attackRate = 1.3
+	#Turn the head towards where the NPC is looking.
+	headTracking = true
