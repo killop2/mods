@@ -1,0 +1,37 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "playermodels"
+version = "1.0.0"
+displayName = "Player Models"
+description = '''Apply Huggy, Mommy or Doey to your player.'''
+
+[[dependencies.playermodels]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.playermodels]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.playermodels]]
+modId = "huggynpc"
+type = "optional"
+versionRange = "[1.0.0,2.0)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.playermodels]]
+modId = "sable_player_ragdoll"
+type = "optional"
+versionRange = "[0.7.0,1.0)"
+ordering = "AFTER"
+side = "BOTH"
